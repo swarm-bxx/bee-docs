@@ -12,11 +12,16 @@ Or you may want to maintain your own rpc endpoint and the tutorial of [kovan-tes
 
 Once finished, just uncomment and replace the value of `BEE_SWAP_ENDPOINT` in `.env` file.
 
-## Step 2: NAT Address
+## Step 2: (Optional) NAT Address
 
 To optimize the connivitity of Swarm BXX network, the NAT address must be configured properly. You should follow the procedure of [Swarm Connectivity](https://docs.ethswarm.org/docs/installation/connectivity)
 
-## Step 3: Launching bee node on Docker
+
+## Step 3: Set BEE_PASSWORD
+
+Change the `BEE_PASSWORD` value in `.env` file as your own custom password.
+
+## Step 4: Launching bee node on Docker
 
 Just run the following command to launch the bee node:
 
@@ -24,10 +29,6 @@ Just run the following command to launch the bee node:
 cd dir_of_your_docker_compose
 docker-compose up -d
 ```
-
-## Step 4: Set BEE_PASSWORD
-
-Change the `BEE_PASSWORD` value in `.env` file as your own custom password.
 
 ## Step 5: Faucet
 
