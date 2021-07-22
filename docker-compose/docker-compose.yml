@@ -4,8 +4,6 @@ services:
   clef-1:
     image: ethersphere/clef:0.5.0
     restart: unless-stopped
-    networks:
-      - swarm-network
     environment:
       - CLEF_CHAINID
     volumes:
