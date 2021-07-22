@@ -53,4 +53,4 @@ Kovan ETH can be sprinkled here: https://linkfaucet.protofire.io/kovan
     /faucet 0x80F9fF4A2f0b6D55076aFC91AB8746A84bDA0bDf
     ```
 
-    After minutes you will get 50 BXX to launch your node.
+    After minutes you will get 51 kBXX to launch your node.
