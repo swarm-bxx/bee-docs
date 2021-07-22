@@ -25,7 +25,11 @@ cd dir_of_your_docker_compose
 docker-compose up -d
 ```
 
-## Step 4: Faucet
+## Step 4: Set BEE_PASSWORD
+
+Change the `BEE_PASSWORD` value in `.env` file as your own custom password.
+
+## Step 5: Faucet
 
 It is required that one bee node must have sufficient fund to connect to the Swarm BXX testnet network:
 
