@@ -35,7 +35,7 @@ docker-compose up -d
 It is required that one bee node must have sufficient fund to connect to the Swarm BXX testnet network:
 
 - Kovan ETH
-- BXX 
+- kBXX
 
 ### Kovan ETH Faucet
 
@@ -44,7 +44,7 @@ Kovan ETH can be sprinkled here: https://linkfaucet.protofire.io/kovan
 ### BXX Faucet
 
 1. Join [BXX Discord](https://discord.gg/65c5wBtaeB) channel
-2. Go to channel of `Faucet` and type slash command to get BXX faucet:
+2. Go to channel of `Faucet` and type slash command to get kBXX faucet:
 
     ```
     /faucet <your ethereum address>
