@@ -11,7 +11,7 @@ services:
     command: full
 
   bee-1:
-    image:  swarmbxx/bee:1.0.0
+    image:  swarmbxx/bee:latest
     restart: unless-stopped
     environment:
       - BEE_API_ADDR
